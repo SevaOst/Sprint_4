@@ -3,6 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from test.config import TestData
 
 
+
 class BasePage:
 
     def __init__(self, driver):
