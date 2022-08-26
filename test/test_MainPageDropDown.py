@@ -29,7 +29,7 @@ class TestMainPageDropDown:
                and main_page.get_answer_btn_text(number_question) == TextInfo.ANSWERS_TEXT[number_question]
 
     @allure.title('Проверка вопроса №3')
-    def test_second_question(self, driver):
+    def test_third_question(self, driver):
         number_question = 3
         main_page = MainPageDropDown(driver)
         main_page.click_cookie_button()
@@ -40,7 +40,7 @@ class TestMainPageDropDown:
                and main_page.get_answer_btn_text(number_question) == TextInfo.ANSWERS_TEXT[number_question]
 
     @allure.title('Проверка вопроса №4')
-    def test_second_question(self, driver):
+    def test_forth_question(self, driver):
         number_question = 4
         main_page = MainPageDropDown(driver)
         main_page.click_cookie_button()
@@ -51,7 +51,7 @@ class TestMainPageDropDown:
                and main_page.get_answer_btn_text(number_question) == TextInfo.ANSWERS_TEXT[number_question]
 
     @allure.title('Проверка вопроса №5')
-    def test_first_question(self, driver):
+    def test_fifth_question(self, driver):
         number_question = 5
         main_page = MainPageDropDown(driver)
         main_page.click_cookie_button()
@@ -62,7 +62,7 @@ class TestMainPageDropDown:
                and main_page.get_answer_btn_text(number_question) == TextInfo.ANSWERS_TEXT[number_question]
 
     @allure.title('Проверка вопроса №6')
-    def test_second_question(self, driver):
+    def test_sixth_question(self, driver):
         number_question = 6
         main_page = MainPageDropDown(driver)
         main_page.click_cookie_button()
@@ -73,7 +73,7 @@ class TestMainPageDropDown:
                and main_page.get_answer_btn_text(number_question) == TextInfo.ANSWERS_TEXT[number_question]
 
     @allure.title('Проверка вопроса №7')
-    def test_second_question(self, driver):
+    def test_seventh_question(self, driver):
         number_question = 7
         main_page = MainPageDropDown(driver)
         main_page.click_cookie_button()
@@ -84,7 +84,7 @@ class TestMainPageDropDown:
                and main_page.get_answer_btn_text(number_question) == TextInfo.ANSWERS_TEXT[number_question]
 
     @allure.title('Проверка вопроса №8')
-    def test_second_question(self, driver):
+    def test_eighth_question(self, driver):
         number_question = 8
         main_page = MainPageDropDown(driver)
         main_page.click_cookie_button()
