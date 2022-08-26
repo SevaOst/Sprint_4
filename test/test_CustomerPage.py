@@ -3,7 +3,6 @@ from PageObject.CustomerPage import CustomerPage
 from PageObject.RentPage import RentPage
 import time
 import allure
-
 from test.config import TestData
 
 

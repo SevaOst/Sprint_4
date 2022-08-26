@@ -2,7 +2,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from test.config import TestData
 
-""""Это родительский класс для всех страниц. В нем содержатся базовые методы."""
+
 
 class BasePage:
 
